@@ -1,7 +1,7 @@
 type ContainerProps = {
     children: React.ReactNode;
     props?: React.HTMLAttributes<HTMLDivElement>;
-  }
+  };
 
 function Container({ children, ...props }: ContainerProps) {
     return(
@@ -10,7 +10,7 @@ function Container({ children, ...props }: ContainerProps) {
                 {children}
             </div>
         </>
-    )
+    );
 }
 
-export default Container
+export default Container;
