@@ -1,4 +1,3 @@
-
 import {
     Card,
     CardContent,
@@ -6,9 +5,9 @@ import {
     CardFooter,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"
+} from "@/components/ui/card";
 
-import Container from "@/components/container"
+import Container from "@/components/container";
 
 function HomePage() {
     return (
@@ -26,10 +25,9 @@ function HomePage() {
                         <p>Card Footer</p>
                     </CardFooter>
                 </Card>
-
             </Container>
         </>
-    )
+    );
 }
 
-export default HomePage
+export default HomePage;

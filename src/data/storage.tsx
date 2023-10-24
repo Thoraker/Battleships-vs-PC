@@ -5,9 +5,9 @@ interface CpuBoardTypes {
     Guess?: (index: number) => void
 }
 
-const cpuBoardStore = create<CpuBoardTypes>()((set) => (
+export const cpuBoardStore = create<CpuBoardTypes>()((set) => (
     {
         CpuBoard: Array(100).fill(0),
-        Guess: (index: number) => 
+        Guess: () => set((state) => ({ CpuBoard: state.CpuBoard }))
     }
-))
+));
