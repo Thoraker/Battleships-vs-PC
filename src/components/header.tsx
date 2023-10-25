@@ -81,7 +81,7 @@ function Header(): JSX.Element {
 
             </Container>
         </header>
-    )
+    );
 }
 
 export default Header;
