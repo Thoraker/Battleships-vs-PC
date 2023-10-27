@@ -1,5 +1,3 @@
-import { Theme } from "@/components/theme-provider";
-
 export interface CellProps {
   element: 0 | 6 | 7;
   updateBoard: (index: number) => void;
